@@ -85,7 +85,7 @@ export default function Navbar() {
             </button>
           </div>
 
-          <div className="flex flex-col text-left space-y-4 pl-8 md:flex-row md:space-y-0 md:pl-0 md:space-x-8 md:items-center md:text-center">
+          <div className="flex flex-col text-left space-y-4 pl-8 md:flex-row md:space-y-0 md:space-x-8 md:items-center md:text-right">
             <Link
               className="block py-2 text-gray-700 hover:text-green-500 font-semibold"
               href="/"
@@ -94,13 +94,13 @@ export default function Navbar() {
             </Link>
             <Link
               className="block py-2 text-gray-700 hover:text-green-500 font-semibold"
-              href="/products"
+              href="/services"
             >
-              Products
+              Services
             </Link>
             <Link
               className="block py-2 text-gray-700 hover:text-green-500 font-semibold"
-              href="/about"
+              href="/about-us"
             >
               About Us
             </Link>
