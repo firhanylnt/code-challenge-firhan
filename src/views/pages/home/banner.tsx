@@ -5,7 +5,7 @@ export default function BannerHome() {
     <div className="relative w-full h-[70vh] md:h-screen">
       <div className="absolute inset-0">
         <Image 
-          src="/images/cp-banner.jpg"
+          src="/images/cp-banner.webp"
           alt="Banner Background"
           layout="fill"
           objectFit="cover"

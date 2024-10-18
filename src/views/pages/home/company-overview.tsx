@@ -72,7 +72,7 @@ export default async function CompanyOverview() {
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-[3em]">
 
                     <div className="relative rounded-[40px] overflow-hidden">
-                        <img src="/images/culture1.jpg" alt="culture1" className="filter brightness-50 lg:aspect-auto w-full" />
+                        <img width={'100%'} height={'100%'} src="/images/culture1.webp" alt="culture1" className="filter brightness-50 lg:aspect-auto w-full" />
                         <div className="absolute w-full h-full z-20 p-8 lg:p-10 flex flex-col justify-end bottom-0">
                             <div className="lg:flex lg:justify-between w-full">
                                 <div className="flex flex-col">
@@ -84,7 +84,7 @@ export default async function CompanyOverview() {
                     </div>
 
                     <div className="relative rounded-[40px] overflow-hidden">
-                        <img src="/images/culture2.jpg" alt="culture2" className="filter brightness-50 lg:aspect-auto w-full" />
+                        <img width={'100%'} height={'100%'} src="/images/culture2.webp" alt="culture2" className="filter brightness-50 lg:aspect-auto w-full" />
                         <div className="absolute w-full h-full z-20 p-8 lg:p-10 flex flex-col justify-end bottom-0">
                             <div className="lg:flex lg:justify-between w-full">
                                 <div className="flex flex-col">
@@ -96,7 +96,7 @@ export default async function CompanyOverview() {
                     </div>
 
                     <div className="relative rounded-[40px] overflow-hidden">
-                        <img src="/images/culture3.jpg" alt="culture3" className="filter brightness-50 lg:aspect-auto w-full" />
+                        <img width={'100%'} height={'100%'} src="/images/culture3.webp" alt="culture3" className="filter brightness-50 lg:aspect-auto w-full" />
                         <div className="absolute w-full h-full z-20 p-8 lg:p-10 flex flex-col justify-end bottom-0">
                             <div className="lg:flex lg:justify-between w-full">
                                 <div className="flex flex-col">
