@@ -23,6 +23,7 @@ export default function Navbar() {
           <button
             onClick={toggleMenu}
             className="text-gray-700 focus:outline-none"
+            aria-label="Open navigation menu"
           >
             {isOpen ? (
               <svg
@@ -67,7 +68,7 @@ export default function Navbar() {
             <button
               onClick={toggleMenu}
               className="text-gray-700 focus:outline-none ml-auto"
-              aria-label="Open navigation menu"
+              aria-label="Close navigation menu"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

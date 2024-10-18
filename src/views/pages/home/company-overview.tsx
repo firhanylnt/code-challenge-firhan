@@ -43,7 +43,7 @@ export default async function CompanyOverview() {
                 {overviews && overviews.items?.map((overview, idx) => (
                     <div className="p-4 text-center md:mt-[-6em]" key={idx}>
                         <img className="mx-auto" alt={overview.fields.title} width={200} height={200} src={`https:${(overview.fields.media as IAsset).fields.file.url}`} />
-                        <h3 className="text-black mt-4 text-xl font-semibold">{overview.fields.title}</h3>
+                        <h1 className="text-black mt-4 text-xl font-semibold">{overview.fields.title}</h1>
                         <div className='text-black'>
                             <RichText document={overview.fields.content} />
                         </div>
@@ -58,7 +58,7 @@ export default async function CompanyOverview() {
                     {services && services.items?.map((service, idx) => (
                         <div className={`bg-[#65d75d] py-[2em] md:py-0 px-[3em] rounded-[10%] shadow- md:h-[25vw] md:mt-[5em] md:mb-[5em]`} key={idx}>
                             <img className="mx-auto md:mt-[-5em]" alt={`gojek-`+service.fields.title} width={400} height={400} src={`https:${(service.fields.media as IAsset).fields.file.url}`} />
-                            <h3 className="text-black mt-4 text-[40px] font-semibold md:mt-[2em]">{service.fields.title}</h3>
+                            <h1 className="text-black mt-4 text-[40px] font-semibold md:mt-[2em]">{service.fields.title}</h1>
                             <div className='text-black'>
                                 <RichText document={service.fields.content} />
                             </div>
