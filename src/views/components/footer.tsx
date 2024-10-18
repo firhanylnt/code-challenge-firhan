@@ -59,14 +59,14 @@ export default function Footer() {
 
         {/* Right Side: Social Media Icons */}
         <div className="flex space-x-4 mt-4 md:mt-0 justify-center items-center">
-          <Link href="https://facebook.com" target="_blank">
-            <FontAwesomeIcon icon={faFacebookF} className="h-6 w-6 hover:text-gray-400" />
+          <Link href="https://facebook.com" target="_blank" aria-label="Visit our Facebook page">
+            <FontAwesomeIcon aria-label='icon-facebook' icon={faFacebookF} className="h-6 w-6 hover:text-gray-400" />
           </Link>
-          <Link href="https://twitter.com" target="_blank">
-            <FontAwesomeIcon icon={faTwitter} className="h-6 w-6 hover:text-gray-400" />
+          <Link href="https://twitter.com" target="_blank" aria-label="Visit our twitter page">
+            <FontAwesomeIcon aria-label='icon-twitter' icon={faTwitter} className="h-6 w-6 hover:text-gray-400" />
           </Link>
-          <Link href="https://instagram.com" target="_blank">
-            <FontAwesomeIcon icon={faInstagram} className="h-6 w-6 hover:text-gray-400" />
+          <Link href="https://instagram.com" target="_blank" aria-label="Visit our Instagram page">
+            <FontAwesomeIcon aria-label='icon-instagram' icon={faInstagram} className="h-6 w-6 hover:text-gray-400" />
           </Link>
         </div>
       </div>
