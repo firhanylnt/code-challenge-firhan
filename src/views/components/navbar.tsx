@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="text-2xl font-bold ">
           <Link href="/">
-            <img src="/images/logo-gojek.webp" className='w-[80px] md:w-[150px]' alt="Description" />
+            <img src="/images/logo-gojek.webp" width={80} height={'100%'} className='w-[80px] md:w-[150px]' alt="Description" />
           </Link>
         </div>
 

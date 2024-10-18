@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto flex flex-col px-4 md:flex-row md:justify-between md:items-center">
         {/* Left Side: Logo */}
         <div className="mb-4 md:mb-0 justify-center items-center">
-          <img src="/images/logo-gojek.webp" alt="Logo" className="h-12" />
+          <img src="/images/logo-gojek.webp" width={100} height={'100%'} alt="Logo" className="h-12" />
         </div>
 
         {/* Middle: Menus */}
